@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cuida tu Salud — Campaña de Higiene Personal</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background:#fff0f5 url("https://cdn.pixabay.com/photo/2020/03/26/17/52/background-4971010_1280.jpg") no-repeat center fixed;
+      background-size:cover;
+      color:#333;
+      margin:0;
+      padding:0;
+    }
+
+    header {
+      background:linear-gradient(90deg,#ff7bac,#ffaec9);
+      color:#fff;
+      padding:15px;
+      text-align:center;
+      font-size:1.4rem;
+      font-weight:bold;
+      box-shadow:0 4px 10px rgba(255,105,180,0.3);
+    }
+
+    .container {
+      max-width:900px;
+      margin:0 auto;
+      padding:20px;
+      background:rgba(255,255,255,0.92);
+      border-radius:16px;
+      box-shadow:0 0 20px rgba(255,182,193,0.3);
+    }
+
+    .hero {
+      background:#ffe4ec;
+      border-radius:16px;
+      padding:20px;
+      text-align:center;
+      box-shadow:0 5px 15px rgba(255,182,193,0.3);
+    }
+
+    .hero img {
+      width:260px;
+      border-radius:16px;
+      margin-top:10px;
+    }
+
+    h2 {
+      color:#ff4081;
+      text-align:center;
+      margin-top:30px;
+    }
+
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:20px;
+      margin-top:20px;
+    }
+
+    .card {
+      background:#fff;
+      border-radius:16px;
+      box-shadow:0 5px 10px rgba(255,105,180,0.2);
+      text-align:center;
+      padding:15px;
+    }
+
+    .card img {
+      width:100%;
+      border-radius:12px;
+      margin-bottom:10px;
+      height:170px;
+      object-fit:cover;
+    }
+
+    .button-section {
+      background:#fff;
+      border-radius:16px;
+      box-shadow:0 5px 15px rgba(255,105,180,0.2);
+      padding:40px 20px;
+      text-align:center;
+      margin-top:40px;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .button-section h2 {
+      color:#ff4081;
+      margin-bottom:10px;
+    }
+
+    .button-section p {
+      color:#666;
+      margin-bottom:25px;
+      font-size:1rem;
+    }
+
+    .btn {
+      background:linear-gradient(90deg,#ff7bac,#ff4081);
+      color:#fff;
+      border:none;
+      padding:15px 45px;
+      border-radius:12px;
+      font-size:1.2rem;
+      font-weight:bold;
+      cursor:pointer;
+      text-decoration:none;
+      position:relative;
+      overflow:hidden;
+      box-shadow:0 5px 10px rgba(255,105,180,0.3);
+      transition:all 0.3s ease;
+      display:inline-block;
+    }
+
+    .btn::before {
+      content:"";
+      position:absolute;
+      top:0;
+      left:-75%;
+      width:50%;
+      height:100%;
+      background:rgba(255,255,255,0.5);
+      transform:skewX(-25deg);
+      transition:0.5s;
+    }
+
+    .btn:hover::before { left:125%; }
+    .btn:hover {
+      transform:scale(1.08);
+      box-shadow:0 10px 20px rgba(255,105,180,0.4);
+    }
+
+    footer {
+      text-align:center;
+      color:#777;
+      margin-top:30px;
+      padding:20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🌸 Cuida tu Salud 🌸</header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Cuida tu Salud y tu Higiene</h1>
+      <p>Aprende hábitos saludables para mantenerte limpio, feliz y con energía todos los días. 💖</p>
+      <img src="https://cdn.pixabay.com/photo/2020/03/26/17/52/washing-hands-4971010_1280.jpg" alt="Niña lavándose las manos">
+    </section>
+
+    <h2>Consejos de Higiene Personal</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🧼 Lavado de manos</h3>
+        <img src="https://cdn.pixabay.com/photo/2020/03/26/17/52/washing-hands-4971010_1280.jpg" alt="Lavado de manos con jabón">
+        <p>Lávate las manos con agua y jabón por al menos 20 segundos para eliminar gérmenes. 👋</p>
+      </div>
+
+      <div class="card">
+        <h3>🪥 Higiene bucal</h3>
+        <img src="https://cdn.pixabay.com/photo/2017/08/27/21/43/toothbrush-2681901_1280.jpg" alt="Cepillos de dientes">
+        <p>Cepíllate los dientes dos veces al día y sonríe con confianza. 😁</p>
+      </div>
+
+      <div class="card">
+        <h3>🚿 Baño diario</h3>
+        <img src="https://cdn.pixabay.com/photo/2016/07/28/08/49/shower-1549746_1280.jpg" alt="Persona tomando una ducha">
+        <p>Un baño diario ayuda a mantener la piel limpia y fresca. 🌸</p>
+      </div>
+
+      <div class="card">
+        <h3>💧 Beber agua</h3>
+        <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/water-1238890_1280.jpg" alt="Vaso de agua saludable">
+        <p>Beber agua mantiene tu cuerpo hidratado y lleno de energía. 💦</p>
+      </div>
+
+      <div class="card">
+        <h3>😴 Descanso adecuado</h3>
+        <img src="https://cdn.pixabay.com/photo/2016/11/29/09/32/woman-1867392_1280.jpg" alt="Mujer durmiendo bien">
+        <p>Duerme al menos 8 horas cada noche para recuperar energía y fortalecer tu sistema inmunológico. 🌙</p>
+      </div>
+
+      <div class="card">
+        <h3>🥗 Alimentación saludable</h3>
+        <img src="https://cdn.pixabay.com/photo/2016/04/13/22/43/salad-1328276_1280.jpg" alt="Ensalada saludable">
+        <p>Incluye frutas y verduras frescas en tu dieta para cuidar tu salud. 🍎</p>
+      </div>
+
+      <div class="card">
+        <h3>🏃‍♀️ Ejercicio regular</h3>
+        <img src="https://cdn.pixabay.com/photo/2016/11/21/15/53/running-1840437_1280.jpg" alt="Mujer corriendo al aire libre">
+        <p>El ejercicio diario mejora tu ánimo, circulación y bienestar general. 💪</p>
+      </div>
+
+      <div class="card">
+        <h3>😃 Salud mental</h3>
+        <img src="https://cdn.pixabay.com/photo/2017/08/01/00/08/people-2563491_1280.jpg" alt="Persona sonriendo feliz">
+        <p>Practica la gratitud, sonríe y cuida tus emociones. 💗</p>
+      </div>
+    </div>
+
+    <section class="button-section">
+      <h2>Participa en nuestro cuestionario 💕</h2>
+      <p>Responde unas breves preguntas para ayudarnos a mejorar la campaña de higiene.</p>
+      <a class="btn" href="https://forms.gle/bAdx5Td8Y8zYHpeh7" target="_blank">Responder cuestionario 💌</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>©️ 2025 Cuida tu Salud — Campaña de Higiene Personal</p>
+    <img src="https://cdn.pixabay.com/photo/2017/09/26/13/39/heart-2780424_1280.png" alt="Corazón decorativo">
+  </footer>
+
+</body>
+</html>
